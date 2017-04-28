@@ -1,0 +1,13 @@
+
+.form-group{margin-bottom:10px;}
+
+label input[type="search"]{width: auto !important;}
+
+.multiselect{
+    min-width: 100%;
+    background-color:#fff;
+}
+
+.btn-group{
+    display: block !important;
+}

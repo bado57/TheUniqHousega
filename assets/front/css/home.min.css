@@ -1,0 +1,77 @@
+#kariyerForm,#road,#surecTakvim{position:relative}
+#surecTakvim{padding-top:65px;padding-bottom:90px}
+#surecTakvim h2{
+    color:#fab702;
+    font-size:40px;
+    line-height:55px;
+    padding-bottom:15px;
+    font-family: 'New Athletic M54';
+    letter-spacing:-1px
+}
+#road{max-width:835px;height:2043px;background:url(assets/img/road.png) no-repeat;margin:20px auto 0}
+#road .icon,#road .tt-tooltip{
+    display:block;
+    position:absolute;
+    -webkit-transition:all 1s ease 0s;
+    -moz-transition:all 1s ease 0s;
+    -ms-transition:all 1s ease 0s;
+    -o-transition:all 1s ease 0s;
+    transition:all 1s ease 0s
+}
+#road .icon{width:127px;height:127px}
+#road .icon.i-1{background:url(assets/img/tooltip-0.png) no-repeat;top:47px;left:354px}
+#road .icon.i-1.anim-group{opacity:0;top:147px}
+#road .icon.i-2{background:url(assets/img/tooltip-1.png) no-repeat;top:143px;left:702px}
+#road .icon.i-2.anim-group{opacity:0;top:243px}
+#road .icon.i-3{background:url(assets/img/tooltip-2.png) no-repeat;top:468px;left:19px}
+#road .icon.i-3.anim-group{opacity:0;top:568px}
+#road .icon.i-4{background:url(assets/img/tooltip-4.png) no-repeat;top:767px;left:712px}
+#road .icon.i-4.anim-group{opacity:0;top:867px}
+#road .icon.i-5{background:url(assets/img/tooltip-3.png) no-repeat;top:1070px;left:20px}
+#road .icon.i-5.anim-group{opacity:0;top:1170px}
+#road .icon.i-6{background:url(assets/img/tooltip-5.png) no-repeat;top:1346px;left:712px}
+#road .icon.i-6.anim-group{opacity:0;top:1446px}
+#road .icon.i-7{background:url(assets/img/tooltip-6.png) center center no-repeat;top:1660px;left:20px}
+#road .icon.i-7.anim-group{opacity:0;top:1785px}
+#road .icon.i-8{background:url(assets/img/tooltip-7.png) center center no-repeat;top:1860px;left:355px}
+#road .icon.i-8.anim-group{opacity:0;top:1785px}
+#road .tt-tooltip{width:300px;text-align:center}
+#road .tt-tooltip .number{
+    width:47px;
+    height:47px;
+    display:block;
+    text-align:center;
+    line-height:42px;
+    font-size:26px;
+    color:#fab702;
+    border:3px solid #fab702;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    -ms-border-radius:50px;
+    -o-border-radius:50px;
+    border-radius:50px;
+    margin:0 auto;
+    font-family:CentraleSansBold;
+}
+#road .tt-tooltip .date{font-family: 'New Athletic M54';font-size:18px;color:#fab702;padding:10px 0 5px;display:block}
+#road .tt-tooltip .f20{font-size:20px;padding-bottom:15px;line-height:22px}
+#road .tt-tooltip .f26{font-size:26px}
+#road .tt-tooltip .fBook{font-family:tt_book}
+#road .tt-tooltip h4{font-family:CentraleSansXBold;font-size:18px;color:#707070;letter-spacing:-1px;position:relative}
+#road .tt-tooltip h4:after{content:'';width:51px;height:2px;background:#d6d4d4;display:block;margin:5px auto}
+#road .tt-tooltip p{font-family:CentraleSansMedium;font-size:1.071rem;line-height:18px;color:#707070}
+#road .tt-tooltip.no-1{top:171px;left:440px}
+#road .tt-tooltip.no-1.anim-group{opacity:0;top:271px}
+#road .tt-tooltip.no-2{top:483px;left:135px}
+#road .tt-tooltip.no-2.anim-group{opacity:0;top:596px}
+#road .tt-tooltip.no-3{top:745px;left:428px}
+#road .tt-tooltip.no-3.anim-group{opacity:0;top:895px}
+#road .tt-tooltip.no-4{top:1070px;left:120px}
+#road .tt-tooltip.no-4.anim-group{opacity:0;top:1201px}
+#road .tt-tooltip.no-5{top:1377px;left:425px}
+#road .tt-tooltip.no-5.anim-group{opacity:0;top:1477px}
+#road .tt-tooltip.no-6{top:1670px;left:125px}
+#road .tt-tooltip.no-6.anim-group{opacity:0;top:1750px}
+#road .tt-tooltip.no-7{top:1870px;left:480px;width:auto}
+#road .tt-tooltip.no-7.anim-group{opacity:0;top:1970px}
+#road .road-bg{display:none}
